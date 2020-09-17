@@ -24,9 +24,9 @@ app.post("/repositories", (request, response) => {
 
   const repository = {
     id: uuid(),
-    title: title,
-    url: url,
-    techs: techs ,
+    title,
+    url,
+    techs,
     likes: 0
   };
 
